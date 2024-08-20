@@ -9,14 +9,14 @@ The `MSCRCclassifier` package requires R (>= 2.10), and depends on the R package
 Use the following command in R to install the `MSCRCclassifier` package:
 ```
 library(devtools)
-install_github("Carpentierbio/MSCRCclassifier",ref="main") # install the "MSCRCclassifier" package
+install_github("Carpentierbio/MSCRCclassifier") # install the "MSCRCclassifier" package
 ```
 
 ## Quick start
-
 ```
 library(caret)
 library(naivebayes)
+library(MSCRCclassifier)
 
 ## MSCRC prediction of primary colorectal cancer samples
 result = classifyMSCRC(example_exp)
