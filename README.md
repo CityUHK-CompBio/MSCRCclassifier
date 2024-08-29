@@ -1,6 +1,6 @@
-﻿# **MSCRCclassifier**: an R package for multi-omics subtyping of colorectal cancer samples
+﻿# **MSCRCclassifier**: an R package for multi-omics subtyping of colorectal cancer
 
-The `MSCRCclassifier` package provides multi-omics subtyping for colorectal cancer samples. It accepts any combination of mRNA expression, microRNA expression, and DNA methylation data as input. The training data of the classifier is integrated from the three omics data based on [sparse mCCA](https://www.degruyter.com/document/doi/10.2202/1544-6115.1470/html).
+The `MSCRCclassifier` package provides multi-omics subtyping for colorectal cancer. It accepts any combination of mRNA expression, microRNA expression, and DNA methylation data as input. The training data of the classifier is integrated from the three omics data based on [sparse mCCA](https://www.degruyter.com/document/doi/10.2202/1544-6115.1470/html).
 
 
 ## Set up
@@ -27,4 +27,4 @@ prob = result$probs
 
 ## Design
 
-Package was developed in _[RStudio](https://www.rstudio.com/)_ following guidelines in [R packages](http://r-pkgs.had.co.nz/) [Wickham 2015].
+Package was developed in _[RStudio](https://www.rstudio.com/)_ following guidelines in [R packages](http://r-pkgs.had.co.nz/).
