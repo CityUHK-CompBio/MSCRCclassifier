@@ -20,9 +20,9 @@ library(naivebayes)
 library(MSCRCclassifier)
 
 ## MSCRC prediction of primary colorectal cancer samples
-result = classifyMSCRC(example_exp)
-label = result$label
-prob = result$prob
+result <- classifyMSCRC(example_exp)
+label <- result$label
+prob <- result$prob
 ```
 
 ## Design
