@@ -22,7 +22,7 @@ library(MSCRCclassifier)
 ## MSCRC prediction of primary colorectal cancer samples
 result = classifyMSCRC(example_exp)
 label = result$label
-prob = result$probs
+prob = result$prob
 ```
 
 ## Design
