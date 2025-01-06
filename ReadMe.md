@@ -13,7 +13,7 @@ install_github("Carpentierbio/MSCRCclassifier") # install the "MSCRCclassifier" 
 ```
 
 ## Quick start
-The detailed multi-omics integration and pre-processing steps can be refered to here referred to here: [https://github.com/Carpentierbio/MSCRC](https://github.com/Carpentierbio/MSCRC).
+The detailed multi-omics integration and pre-processing steps can be referred to here: [https://github.com/Carpentierbio/MSCRC](https://github.com/Carpentierbio/MSCRC).
 ```
 library(caret)
 library(naivebayes)
